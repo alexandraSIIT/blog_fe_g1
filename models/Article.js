@@ -30,4 +30,5 @@ Article.prototype.getArticle = function(id)  {
     .catch(function(error) {
         console.log(error);
     })
+    // this is a fix for some bug
 }
